@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run C++ with I/O (No Pause)",
+      "type": "shell",
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "cd /d ${fileDirname} && (if not exist input.txt echo. > input.txt) && (if not exist output.txt echo. > output.txt) && g++ -std=c++20 -g \"${fileBasename}\" -o main.exe && main.exe < input.txt > output.txt"
+      ],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
+
