@@ -1,1 +1,1 @@
-reversed array = 89 54 37 51 77 34 56 23 
+maximum subarray sum = 6
