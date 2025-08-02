@@ -1,1 +1,1 @@
-maximum subarray sum = 6
+majority element in array = 2
